@@ -9,7 +9,7 @@
 		"max-component": "*",
 		"sum-component": "*",
 		"term-canvas": "*",
-		"wd": "*",
+		"wd": "0.4.0",
 		"request": "*",
 		"debug": "*",
 		"batch": "^0.3.0"
