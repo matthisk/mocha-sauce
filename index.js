@@ -90,7 +90,7 @@ MochaSauce.prototype.start = function(fn) {
 		// disable Sauce features not needed for unit tests (video + screenshot recording)
 		conf['record-video'] = self._video;
 		conf['record-screenshots'] = self._screenshots;
-		conf['max-duration'] = self._maxDuration;
+		conf['maxDuration'] = self._maxDuration;
 
 		batch.push(function(done) {
 
