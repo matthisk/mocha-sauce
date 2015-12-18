@@ -12,7 +12,7 @@
 		"wd": "*",
 		"request": "*",
 		"debug": "*",
-		"batch": "*"
+		"batch": "^0.3.0"
 	},
 	"main": "index"
 }
