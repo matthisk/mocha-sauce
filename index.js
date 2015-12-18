@@ -160,6 +160,15 @@ MochaSauce.prototype.start = function(fn) {
 					doItAgain();
 
 				});
+				
+				setTimeout(function() {
+					debug('browser %s timedout after %s', conf.browserName, self._maxDuration);
+
+					self.emit('end', conf);
+					browser.quit();
+					done();
+				}, self._maxDuration);
+
 			});
 		});
 	});
